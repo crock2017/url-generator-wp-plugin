@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.main_generator{
+	margin: 15px 0px 15px 0px;
+}
+.lbl {
+	padding-top: 5px;
+}
+#template, #result, #total{
+	margin-bottom: 15px; 
+   /* will prevent resizing horizontally */
+   resize:vertical;
+}
+.socbtn {
+	padding-right: 0px !important;
+}
+.socbtn button {
+    font-size: 12px;
+    padding: 6px 6px;
+}
+#create_btn,#copy_result_btn,#copy_total_btn{
+	float:right;
+}
+.post_data , .main_generator label{
+	font-size: 14px;
+    font-weight: 700;
+}
+.urlG_info{
+	font-size: 12px;
+}
+
+@media screen and (max-width: 992px) {
+	#create_btn,#copy_result_btn,#copy_total_btn{
+		margin-bottom: 15px;
+	}
+	.result_data {
+    padding-top: 45px !important;
+    /* text-align: center; */
+}
+}
+	.result_data {
+   padding-top: 20px;
+    /* text-align: center; */
+}
+.urlG_tips p, .urlG_tips {
+	margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+#url_btn{
+	padding: 4.5px 15px !important;
+}
+.main_generator textarea {
+	font-size: 12px;
+} 
+.main_generator{
+	position: relative;
+}
+.ajax_loader{
+	position: absolute;
+	top: 5%;
+	left: 33%;
+}
